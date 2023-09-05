@@ -1,0 +1,15 @@
+{
+  "name": "cypress-challege",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open --e2e --browser chrome"
+  },
+  "author": "Emilio Zelarayan",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^12.17.4",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  }
+}
